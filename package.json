@@ -1,0 +1,29 @@
+{
+  "name": "nlw-journey-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@8.7.4+sha512.fdb4396d7a7c97b92b866d905d0546b8f8f3342fd9fe9d1f2b8930f1a22ba86d18b614d2f5a9112861e25b26875fadb7967b42ae21c16593ea85b5dccea48d56",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/nodemailer": "^6.4.15",
+    "prisma": "^5.16.1",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@prisma/client": "5.16.1",
+    "dayjs": "^1.11.11",
+    "fastify": "^4.28.1",
+    "fastify-type-provider-zod": "^2.0.0",
+    "nodemailer": "^6.9.14",
+    "zod": "^3.23.8"
+  }
+}
